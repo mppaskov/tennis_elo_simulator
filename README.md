@@ -5,6 +5,9 @@ By providing a draw/bracket and the latest Elo ranking the simulator performs Mo
 
 *Currently the Elo rating are extracted from [TennisAbstract](http://www.tennisabstract.com/blog/).*
 
+## TODO
+
+- [] Update Elo after tournament
 ## Source of insperation
 
 The main inspiration and original code comes from the work of [Jeff Sackmann](http://www.jeffsackmann.com/).
