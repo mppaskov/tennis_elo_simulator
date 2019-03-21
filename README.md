@@ -7,7 +7,10 @@ By providing a draw/bracket and the latest Elo ranking the simulator performs Mo
 
 ## TODO
 
-- [] Update Elo after tournament
+- [ ] Update Elo after tournament
+- [ ] Remove 'bye' players from results
+- [ ] Get surface from tournament draw instead of input
+
 ## Source of insperation
 
 The main inspiration and original code comes from the work of [Jeff Sackmann](http://www.jeffsackmann.com/).
