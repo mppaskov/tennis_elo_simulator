@@ -97,8 +97,10 @@ if __name__ == "__main__":
     iters = int(arginput.iters)
     
     # Prepare output name
-    tournament = arginput.fname_draw.split('.')[0]
-    fname_output = f"{tournament}_res{iters}.csv"
+    tournament_folder = arginput.fname_draw.split('.')[0]
+    tournament_list = tournament_folder.split('/')
+    tournament = tournament_list[0] if len(tournament_list) == 1 else tournament_list[1]
+    fname_output = f"predictions/{tournament}_res{iters}.csv"
     
     print('-'*120)
     print('Preparing tournament')

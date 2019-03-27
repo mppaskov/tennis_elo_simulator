@@ -1,5 +1,4 @@
 # Folders
 reference/
-
-# Results
-*res*.csv
+draws/*_r*
+predictions/
